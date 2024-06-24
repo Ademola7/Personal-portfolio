@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  line-height: 1.5;
+}
+
+/*      Header
+ */
+.header {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.logo {
+  background-color: #fff;
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+.section {
+  background: url(./bg.png) center/cover no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 80vh;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.5em;
+}
+
+.article {
+  /* color: #fff; */
+  background-color: rgb(54, 53, 53);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.article h1 {
+  color: #fff;
+
+  margin-bottom: 0px;
+}
+.article p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.social-media,
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.social-media a,
+aside a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.con {
+  border: 2px solid rgb(64, 115, 64);
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+footer p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+footer .p1 {
+  margin-right: 150px;
+}
+footer .p2 {
+  margin: right: 30px;
+}
